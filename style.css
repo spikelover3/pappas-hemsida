@@ -9,7 +9,9 @@ p {
 }
 
 h1 {
-    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -24,13 +26,23 @@ span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
 img{
     width: 400px;
     height: auto;
     margin: 10px;
     border: 10px solid #ca0e6fdc;
     border-radius: 10px;
-    border-width: 45px;
+    border-width: 10px;
+}
+
+.parent
+{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.bilder
+{
+    height: 300px;
+    width: auto;
 }
